@@ -1,0 +1,41 @@
+/* Add to your CSS or inline styles */
+.card {
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Change navbar color to orange */
+.navbar {
+  background-color: #FF9800 !important; /* Orange color */
+}
+
+/* Optional: Change the navbar text color for better contrast */
+.navbar-light .navbar-nav .nav-link, 
+.navbar-light .navbar-brand {
+  color: white !important;
+}
+
+/* Optional: Change hover state for links */
+.navbar-light .navbar-nav .nav-link:hover, 
+.navbar-light .navbar-brand:hover {
+  color: #FFF3E0 !important; /* Light orange/cream color on hover */
+}
+
+/* Change New Place and New Entry buttons to magenta */
+.btn-primary {
+  background-color: #FF00FF !important; /* Magenta */
+  border-color: #FF00FF !important;
+}
+
+/* Optional: Change hover state for a slightly darker shade */
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active {
+  background-color: #D400D4 !important; /* Darker magenta */
+  border-color: #D400D4 !important;
+}

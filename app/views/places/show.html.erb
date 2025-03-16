@@ -14,7 +14,11 @@
           <% end %>
           <div class="card-body">
             <h5 class="card-title"><%= entry["title"] %></h5>
-            <p class="card-text"><%= entry["occurred_on"] %></p>
+            <p class="card-text">
+              <span class="badge bg-secondary">
+                <%= entry["occurred_on"].strftime("%b %d, %Y") %>
+              </span>
+            </p>
             <p class="card-text"><%= entry["description"] %></p>
           </div>
         </div>
